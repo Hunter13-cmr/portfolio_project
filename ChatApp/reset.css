@@ -1,0 +1,17 @@
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+}
+
+.field {
+    position: relative; /* Parent container must be relative for absolute positioning */
+}
+
+.field input {
+    width: 100%;
+    padding-right: 40px; /* Leave space for the eye icon */
+}

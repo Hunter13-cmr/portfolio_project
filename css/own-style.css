@@ -1,0 +1,11 @@
+.sign-up-text{
+    color: black;
+    font-weight: 12px;
+}
+.inp-file{
+    overflow: hidden;
+}
+
+.connect-button{
+    cursor: pointer;
+}
