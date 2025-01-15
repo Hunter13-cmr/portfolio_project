@@ -60,7 +60,7 @@ Here is an overview of the key files and their functionalities:
    - Access the app at `http://localhost/ChatApp`.
 
 ## Deployment
-Deploy the ChatApp to a live server or hosting platform:
+Deploy the ChatApp to a live server or hosting platform :
 1. Use **Netlify** or **GitHub Pages** for static files (CSS, JavaScript).
 2. Deploy the PHP backend on platforms like **Heroku**, **Vercel**, or **cPanel**.
 3. Update configurations to connect to the live database.
