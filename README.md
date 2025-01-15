@@ -139,6 +139,15 @@ To ensure high-quality version control practices, we have followed these best pr
 
 ---
 
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/YourFeature`.
+3. Commit changes: `git commit -m 'Add feature'`.
+4. Push to your branch: `git push origin feature/YourFeature`.
+5. Open a pull request.
+
+---
 ## Contact
 For inquiries, feedback, or collaboration opportunities, please reach out via GitHub Issues or the contact form in the portfolio project.
 
