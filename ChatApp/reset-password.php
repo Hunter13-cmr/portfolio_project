@@ -52,7 +52,7 @@ if (isset($_GET['token'])) {
 ?>
 
 <?php include_once "header.php"; ?>
-<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="css/reset.css">
 <title>Reset Password</title>
 <body>
     <div class="wrapper">
