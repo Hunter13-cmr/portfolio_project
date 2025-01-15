@@ -20,7 +20,7 @@ ChatApp is a real-time chat application that allows users to communicate seamles
 #### Key Files and Links
 1. [Forgot Password Handler](https://github.com/Hunter13-cmr/portfolio_project/blob/main/ChatApp/forgot-password.php): Handles password reset requests.
 2. [Login System](https://github.com/Hunter13-cmr/portfolio_project/blob/main/ChatApp/login.php): Manages user login with email and password validation.
-3. [User Registration](https://github.com/Hunter13-cmr/portfolio_project/blob/main/ChatApp/register.php): Handles new user registrations.
+3. [User Registration](https://github.com/Hunter13-cmr/portfolio_project/blob/main/ChatApp/index.php): Handles new user registrations.
 4. [Password Reset](https://github.com/Hunter13-cmr/portfolio_project/blob/main/ChatApp/reset-password.php): Allows secure password resets.
 5. [Chat Functionality](https://github.com/Hunter13-cmr/portfolio_project/blob/main/ChatApp/chat.php): Core real-time chat feature.
 6. [Configuration](https://github.com/Hunter13-cmr/portfolio_project/blob/main/ChatApp/config.php): Database connection settings.
