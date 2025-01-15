@@ -97,17 +97,20 @@ PHPMailer is used to enable secure and reliable email functionality for the cont
    use PHPMailer\PHPMailer\PHPMailer;
    use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php';
+   require 'vendor/autoload.php';
 
-$mail = new PHPMailer(true);
-$mail->isSMTP();
-$mail->Host = 'smtp.example.com';
-$mail->SMTPAuth = true;
-$mail->Username = 'your_email@example.com';
-$mail->Password = 'your_password';
-$mail->SMTPSecure = 'tls';
-$mail->Port = 587;
+   $mail = new PHPMailer(true);
+   $mail->isSMTP();
+   $mail->Host = 'smtp.example.com';
+   $mail->SMTPAuth = true;
+   $mail->Username = 'your_email@example.com';
+   $mail->Password = 'your_app_password';
+   $mail->SMTPSecure = 'tls';
+   $mail->Port = 587;
    ```
+### LEARN MORE ABOUT PHPMAILER
+- [PHPMailer Documentation](https://github.com/PHPMailer/PHPMailer)
+
 3. Use the configured file for email functionalities.
 
 ---
@@ -123,10 +126,6 @@ $mail->Port = 587;
 - Frequent commits with descriptive messages.
 - Use of feature branches for isolated development.
 - Pull requests with code reviews.
-
-#### Presentation
-- Structured Google Slides presentation showcasing architecture, challenges, and outcomes.
-- Highlighting lessons learned and areas for future improvement.
 
 ---
 
