@@ -38,7 +38,7 @@ ChatApp is a real-time chat application that allows users to communicate seamles
    ```
 3. **Set Up the Database:**
    - Create a MySQL database.
-   - Import the provided SQL file (`chatapp.sql`) to set up the necessary tables.
+   - Import the provided SQL files (`chatapp.sql` and `subscriptions.sql`) to set up the necessary tables.
 4. **Update Configuration:**
    - Modify the database connection details in `config.php`.
 5. **Run Locally:**
