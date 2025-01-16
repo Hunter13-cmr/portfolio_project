@@ -1,8 +1,8 @@
 <?php
 // Database credentials
 $host = 'localhost';
-$dbname = 'chatapp'; // Must match the database name
-$username = 'root'; // Default username for XAMPP
+$dbname = 'chatapp'; // Must match the database name.
+$username = 'root'; // Default username for XAMPP.
 $password = ''; // Default password for XAMPP (usually empty)
 
 try {
