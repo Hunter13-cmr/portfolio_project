@@ -12,7 +12,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-image: url('footer_background.jpg'); /* Remplacez par le chemin de votre image */
+            background-image: url('footer_background.jpg'); /* Replace by the path of your image */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
