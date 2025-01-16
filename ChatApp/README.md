@@ -4,8 +4,8 @@
 ChatApp is a real-time chat application that allows users to communicate seamlessly with one another. It is designed with user authentication, password recovery, and responsive UI, ensuring a smooth and secure experience. Built with PHP, MySQL, JavaScript, and CSS, ChatApp combines functionality and style.
 
 ## Features
-- **User Authentication:** Secure login and registration system.
-- **Forgot Password:** Users can reset their passwords via email.
+- **User Authentication:** Secure login and registration system;
+- **Forgot Password:** Users can reset their passwords via email;
 - **Real-Time Chat:** Instant messaging between users.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
 - **Secure Data Handling:** All sensitive information, including passwords, is securely encrypted.
