@@ -3,9 +3,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP; // Ensure this is included
 
-require 'C:/xampp/htdocs/SADRACK/vendor/phpmailer/src/Exception.php';
-require 'C:/xampp/htdocs/SADRACK/vendor/phpmailer/src/PHPMailer.php';
-require 'C:/xampp/htdocs/SADRACK/vendor/phpmailer/src/SMTP.php';
+require 'C:/xampp/htdocs/project_name/vendor/phpmailer/src/Exception.php';
+require 'C:/xampp/htdocs/project_name/vendor/phpmailer/src/PHPMailer.php';
+require 'C:/xampp/htdocs/project_name/vendor/phpmailer/src/SMTP.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     include_once 'config.php';
@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $token = bin2hex(random_bytes(16)); // Generate a unique token
         $update = mysqli_query($conn, "UPDATE users SET reset_token = '$token', token_expiry = DATE_ADD(NOW(), INTERVAL 15 MINUTE) WHERE email = '$email'");
         if ($update) {
-            $reset_link = "https://ff0c-41-202-219-68.ngrok-free.app/SADRACK/ChatApp/reset-password.php?token=$token";
+            $reset_link = "reset_link/project_name/ChatApp/reset-password.php?token=$token";
 
             $mail = new PHPMailer(true);
 
@@ -27,8 +27,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $mail->SMTPDebug = 0; // Correct reference to SMTP class
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
-                $mail->Username = 'felocksadrack@gmail.com'; // Your email
-                $mail->Password = 'rmsx ixri matm twiy'; // Your Google App Password
+                $mail->Username = 'email_address'; // Your email
+                $mail->Password = 'your_app_password'; // Your Google App Password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Use STARTTLS encryption
                 $mail->Port = 587;
             
@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 );
             
                 // Recipients
-                $mail->setFrom('felocksadrack@gmail.com', 'FE-LOCK DEV (ChatApp)'); // Sender email and name
+                $mail->setFrom('email_address', 'name'); // Sender email and name
                 $mail->addAddress($email); // Add the recipient email address
             
                 // Email content
