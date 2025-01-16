@@ -1,6 +1,6 @@
 <?php
 // Database configuration
-$host = 'localhost';  // Your database host (e.g., 'localhost' or your database server IP)
+$host = 'localhost';  // Your database host (e.g, 'localhost' or your database server IP)
 $username = 'root';    // Your database username (usually 'root' for local development)
 $password = '';        // Your database password (leave empty for localhost)
 $dbname = 'chatapp';  // The name of your database
