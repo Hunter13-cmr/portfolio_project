@@ -57,6 +57,7 @@ if (isset($_GET['token'])) {
 <body>
     <div class="wrapper">
         <section class="form login">
+            <div class="link"><a class="fas fa-arrow-left" style="color:rgb(250, 23, 23);" href="../index.php">&nbsp; Back To The Website</a></div>
             <header style="text-align: center;">Reset Password</header>
             <form action="reset-password.php?token=<?php echo htmlspecialchars($_GET['token']); ?>" method="POST" autocomplete="off">
                 <div class="field input">
