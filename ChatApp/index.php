@@ -10,6 +10,7 @@
 <body>
   <div class="wrapper">
     <section class="form signup">
+      <div class="link"><a class="fas fa-arrow-left" style="color:rgb(250, 23, 23);" href="../index.php">&nbsp; Back To The Website</a></div>
       <header style="text-align: center";>CHAT</header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
