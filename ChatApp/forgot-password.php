@@ -69,6 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
     <div class="wrapper">
         <section class="form forgot-password">
+            <div class="link"><a class="fas fa-arrow-left" style="color:rgb(250, 23, 23);" href="../index.php">&nbsp; Back To The Website</a></div>
             <header style="text-align: center";>Forgot Password</header>
             <?php 
                 if (!empty($error_message)) {
